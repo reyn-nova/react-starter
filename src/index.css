@@ -1,0 +1,33 @@
+body {
+    background-color: powderblue;
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+/* -------------------------------------------------------------------- */
+
+.main-page-container {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.main-page-text {
+    font-size: 80px;
+}

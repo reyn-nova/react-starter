@@ -1,27 +1,9 @@
 export function App() {
-	const React = require('react')
+    const React = require('react')
 
-	require('./App.css')
+    const { MainPage } = require('./screens/MainPage')
 
-	const { Emoji } = require('./components/Emoji')
-
-	return (
-		<div
-			className = 'container'
-		>
-			<p
-				className = "main-text"
-			>
-				Hello there,
-				
-				<span>&nbsp;&nbsp;</span>
-				
-				<Emoji
-					symbol = '👋'
-				/>
-
-				!
-			</p>
-		</div>
-	)
+    return (
+        <MainPage />
+    )
 }

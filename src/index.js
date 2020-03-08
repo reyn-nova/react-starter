@@ -7,6 +7,8 @@ const { register } = require('./serviceWorker')
 
 const { App } = require('./App')
 
+require('./index.css')
+
 ReactDOM.render(
     (
         <BrowserRouter>
